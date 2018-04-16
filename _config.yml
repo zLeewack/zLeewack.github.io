@@ -1,6 +1,6 @@
 # Site settings
-title: A blog about lorem ipsum dolor sit amet
-description: A blog about lorem ipsum dolor sit amet
+title: A blog about zLeewack
+description: A blog about zLeewack
 # baseurl: "/particle" # the subpath of your site, e.g. /blog
 # url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
@@ -10,7 +10,7 @@ user_description: Bicycle rights irony actually neutra typewriter lyft. Man bun 
 user_title: computer vision
 email: zLeewack@163.com
 twitter_username: lorem_ipsum
-github_username:  lorem_ipsum
+github_username:  zLeewack
 gplus_username:  lorem_ipsum
 
 # Google-analytics
