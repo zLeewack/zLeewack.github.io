@@ -2,15 +2,60 @@
   <h1> Research </h1>
   <p> {{site.user_description}} </p>
 </div>
+     <style>
+        a{ text-decoration:none } 
+        *{ margin:10px 0px; padding:0; }
+        .demo{
+            /*font-size: 14px;*/
+            /*color: #00F;*/
+            text-align:justify;}
+        /*.link{ font-weight: bold}*/
+        .link-buttom{
+            flex-direction: row;
+        }
+        .project-link-me {
+  display: block;
+  width: 10px;
+  margin: 10px 10px;
+  padding: 5px;
+  color: $main;
+  background-color: transparent;
+  border: 1px solid $main;
+  border-radius: 10px;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.3s ease-out,
+              background-color 0.3s ease-out,
+              border-color 0.3s ease-out;
+  &:hover {
+    background-color: $purple;
+    border-color: $purple;
+    color: #fff;
+    transition: color 0.3s ease-in,
+                background-color 0.3s ease-in,
+                border-color 0.3s ease-in;
+  }
+  &:active {
+    background-color: $purple;
+    border-color: $purple;
+    color: #fff;
+    transition: color 0.3s ease-in,
+                background-color 0.3s ease-in,
+                border-color 0.3s ease-in;
+  }
+}
+    </style>
 
 <div class="user-projects">
   <div class="images-left">
     <img alt="Trans" src="{{ "/assets/img/IeeeTrans.png" | prepend: site.baseurl }}" />
   </div>
   <div class="contents-right">
-    <style>
+   <!--  /*<style>
         a{ text-decoration:none} 
-    </style>
+    </style>*/ -->
     <h4>
        <a class="link" href="/assets/papers/18-TIE-0932.pdf">Panoramic UAV Surveillance System based on Structure-free Fisheye Camera Array</a>
     </h4>
@@ -30,18 +75,16 @@
     <img alt="electronics" src="{{ "/assets/img/electronics-07-00073.png" | prepend: site.baseurl }}" />
   </div>
   <div class="contents-right">
-     <style>
+<!--      <style>
         a{ text-decoration:none } 
         *{ margin:10px 0px; padding:0; }
         .demo{
-            /*font-size: 14px;*/
-            /*color: #00F;*/
+            color: #00F;
             text-align:justify;}
-        /*.link{ font-weight: bold}*/
         .link-buttom{
             flex-direction: row;
         }
-    </style>
+    </style> -->
     <!-- <div class="projects-name"> -->
     <h4>
        <a class="link" href="/assets/papers/electronics-07-00073-v2.pdf">Monocular Vision SLAM-Based UAV Autonomous Landing in Emergencies and Unknown Environments</a>
@@ -58,9 +101,9 @@
     <img alt="ICIGP2018" src="{{ "/assets/img/ICIGP2018.png" | prepend: site.baseurl }}" />
   </div>
   <div class="contents-right">
-    <style>
+   <!--  <style>
         a{ text-decoration:none} 
-    </style>
+    </style> -->
     <h4>
        <a class="link" href="/assets/papers/18-TIE-0932.pdf">Anti-UAVs Surveillance System based on Ground Random Fisheye Camera Array</a>
     </h4>
@@ -74,9 +117,9 @@
     <img alt="ICSP2017" src="{{ "/assets/img/ICSP2017.png" | prepend: site.baseurl }}" />
   </div>
   <div class="contents-right">
-    <style>
+   /*<!--  <style>
         a{ text-decoration:none} 
-    </style>
+    </style> -->*/
     <h4>
        <a class="link" href="/assets/papers/18-TIE-0932.pdf">Anti-UAVs Surveillance System based on Ground Random Fisheye Camera Array</a>
     </h4>
@@ -89,9 +132,9 @@
     <img alt="Sensors2016" src="{{ "/assets/img/Sensors2016.png" | prepend: site.baseurl }}" />
   </div>
   <div class="contents-right">
-    <style>
+  <!--   <style>
         a{ text-decoration:none} 
-    </style>
+    </style> -->
     <h4>
        <a class="link" href="/assets/papers/sensors-16-01393.pdf">A Ground-Based Near Infrared Camera Array System for UAV Auto-Landing in GPS-Denied Environment</a>
     </h4>
